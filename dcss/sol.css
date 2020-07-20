@@ -47,6 +47,18 @@ h2{
     font-style: normal;
     float: right;
     padding: 10px 30px 10px 30px;
+
+}
+#highlight4 {
+     
+    background-color: pink;
+    border: 4px solid black;
+    font-size:24px;
+    font-weight: bold;
+    font-color:black;
+    font-style: normal;
+    float: right;
+    padding: 10px 30px 10px 30px;
 }
 
  
@@ -80,6 +92,15 @@ h2{
     font-weight: bold;
     font-style: italic;
    }
+#p4 {
+    padding: 60px 20px 10px 20px;
+    border: 3px solid;
+    font-size:18px;
+    background-color:cyan;
+    color:black;
+    font-weight: bold;
+    font-style: italic;
+   } 
 /* RESPONSIVE WORK DEVICE */
 
 .fili {
@@ -171,6 +192,51 @@ h2{
 }
         
 }
+@media (min-width:767px)
+{
+.colp1, .colp2, .colp3, .colp4, .colp5, .colp6,.colp7, .colp8, .colp9,.colp10, .colp11, .colp12 {
+  float: left; 
+} 
+.colp1{
+  width: 100%;
+}
+.colp2{
+  width: 100%;
+}
+.colp3{
+  width: 100%;
+}
+.colp4{
+  width: 33.33%;
+}
+.colp5{
+  width: 41.66%;
+}
+.colp6{
+  width: 50%;
+}
+.colp7{
+  width: 58.33%;
+}
+.colp8{
+  width: 66.66%;
+}
+.colp9{
+  width: 74.99%;
+}
+.colp10{
+  width: 83.33%;
+}
+.colp11{
+  width: 91.66%;
+}
+.colp12{
+  width: 100%;
+}
+#cosita{
+     position: relative;
+}
+         
 @media (min-width:767px)
 {
 .colp1, .colp2, .colp3, .colp4, .colp5, .colp6,.colp7, .colp8, .colp9,.colp10, .colp11, .colp12 {
