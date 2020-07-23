@@ -1,4 +1,15 @@
  
+
+body {
+   color : Yellow;
+
+  }
+  p {
+    color: #77bb99;
+       font-family: verdana;
+       font-size: 20px;
+}
+
 p {
   border: black 10px dotted;
   margin: 20px;
