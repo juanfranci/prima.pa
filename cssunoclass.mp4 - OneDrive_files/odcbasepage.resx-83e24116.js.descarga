@@ -1,2 +1,0 @@
-define("odsp-next/controls/overlays/dialog/DialogOverlay.resx",["exports"],function(e){e.strings=e.default={"closeLabel":"Cerrar"}})
-define("odsp-next/controls/panelHost/PanelHost.resx",["exports"],function(e){e.strings=e.default={"closePanelLabel":"Cerrar"}})
