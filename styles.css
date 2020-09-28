@@ -1,13 +1,22 @@
-/* use this to put borders around things... */
-.thin_border{
-	border: 1px solid black;
-}
-a{
-	color:gray;
-	text-decoration: none;
+body{
+background-color: orange;
+color: blue;
+
 }
 
-a:hoover{
-	     color:black;
-	     background: white;
+a{
+color: blue;
+text-decoration:none;
+
+}
+
+a:hover{
+color:green;
+background: :gray;
+
+}
+.greenlink:hover{
+color:blue;
+background:red;
+
 }
