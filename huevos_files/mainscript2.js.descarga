@@ -1,0 +1,153 @@
+$(document).ready(function() {
+
+    booles01=0;
+    booles02=0;
+    booles03=0;
+
+    
+    $( ".formReg input[data-key=user_password]" ).after( "<div class='textopasswd'>La contraseña debe tener más de 8 caracteres y contener al menos una Mayúscula, minúscula y número</div>" );
+    $( ".formReg input[data-key=confirm_user_password]" ).after( "<div class='textopasswdn'></div>" );
+    
+    $('input[name=user_password-1203]').on('keyup', function() {
+       value = $('input[name=user_password-1203]').val();
+       console.log(value);
+       if( value.length < 8 ){
+            console.log("menor de 8");
+        }else{
+            //mayusc
+            var contar = 0;
+            var contarmin = 0;
+            var contarnum = 0;
+            var mayusculas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            var minusculas = "abcdefghijklmnopqrstuvwxyz";
+            var numeros = "1234567890"; 
+            for (var i = 0; i < mayusculas.length; i++) {
+                for (var x = 0; x < value.length; x++) {
+                    if(value[x]==mayusculas[i]){
+                        contar+=1;
+                    }
+                }
+            }
+            for (var i = 0; i < minusculas.length; i++) {
+                for (var x = 0; x < value.length; x++) {
+                    if(value[x]==minusculas[i]){
+                        contarmin+=1;
+                    }
+                }
+            }
+            for (var i = 0; i < numeros.length; i++) {
+                for (var x = 0; x < value.length; x++) {
+                    if(value[x]==numeros[i]){
+                        contarnum+=1;
+                    }
+                }
+            }
+            console.log("mayusculas= " + contar+", minusculas= " + contarmin+",numeros="+contarnum);
+            if((contar != 0)&&(contarmin != 0)&&(contarnum != 0)){
+                $('.textopasswd').css('color','green');
+                $('.textopasswd').text(' ');
+                booles02=1;
+                
+            }else{
+                //console.log("aun no Es apto");
+                $('.textopasswd').css('color','red');
+                $('.textopasswd').text('La contraseña debe tener más de 8 caracteres y contener al menos una Mayúscula, minúscula y número');
+                booles02=0;
+            }
+        }
+
+       botonentry(booles01, booles02, booles03);
+        
+    });
+
+    $('input[name=confirm_user_password-1203]').on('keyup', function() {
+        value01 = $('input[name=user_password-1203]').val();
+        value02 = $('input[name=confirm_user_password-1203]').val();
+
+        if(value01==value02){
+          console.log("contraseñas iguales");
+            $('.textopasswdn').css('color','green');
+            $('.textopasswdn').text('Las contraseñas coinciden');
+            booles03=1;
+        }else{
+            console.log("contraseñas diferentes");
+            $('.textopasswdn').css('color','red');
+            $('.textopasswdn').text('Las contraseñas no coinciden');
+            booles03=0;
+        }
+
+        botonentry(booles01, booles02, booles03);
+
+    });
+
+    $('input[name=user_email-1203]').on('keyup', function() {
+        var isDisabled = $('.um-register input.um-button').is('[disabled=disabled]');
+        if(isDisabled){
+            //console.log("isDisabled :D");
+            booles01=0;
+        }else{
+            //console.log(" able ");
+            booles01=1;
+        }
+
+       botonentry(booles01, booles02, booles03);
+    });
+
+    function botonentry(b01,b02,b03){
+        //console.log(" i01: "+b01+" i02: "+b02+" i03: "+b03);
+        if((b01==1)&&(b02==1)&&(b03==1)){
+            //console.log("habilitado");
+            $("input.um-button").prop("disabled", false);
+        }else{
+            //console.log("deshabilitado");
+            $("input.um-button").prop("disabled", true);
+        }
+    }
+
+    $('#post input[type=submit]').click(function(){
+        sumarating();
+    });
+
+    $('#commentform input[type=submit]').click(function(){
+        sumarating();
+    });
+
+    /*$('#question input[type=submit]').click(function(){
+        sumarating();
+    });
+*/
+
+    function sumarating(){
+        console.log("entrando aqui");
+    }
+
+    $('.um-field-gustos input[value="Recetas_tradicionales"]').parent(".um-field-checkbox").children( ".um-field-checkbox-option" ).addClass( "gusto01" );
+    $('.um-field-gustos input[value="Opciones_vegetarianas"]').parent(".um-field-checkbox").children( ".um-field-checkbox-option" ).addClass( "gusto02" );
+    $('.um-field-gustos input[value="Recetas_rápidas"]').parent(".um-field-checkbox").children( ".um-field-checkbox-option" ).addClass( "gusto03" );
+    $('.um-field-gustos input[value="Carnes_y_asados"]').parent(".um-field-checkbox").children( ".um-field-checkbox-option" ).addClass( "gusto04" );
+
+    $('.gusto01').text(function () {
+        return $(this).text().replace("Recetas_tradicionales", "Recetas tradicionales"); 
+    });
+
+    $('.gusto02').text(function () {
+        return $(this).text().replace("Opciones_vegetarianas", "Opciones vegetarianas"); 
+    });
+
+    $('.gusto03').text(function () {
+        return $(this).text().replace("Recetas_rápidas", "Recetas rápidas"); 
+    });
+
+    $('.gusto04').text(function () {
+        return $(this).text().replace("Carnes_y_asados", "Carnes y asados"); 
+    });
+
+    /*function camiloClick() {
+        $('#commentform #submit').on(click(function(e) {
+            e.preventDefault();
+            alert("hola");
+        }))
+    }
+    camiloClick();*/
+
+});

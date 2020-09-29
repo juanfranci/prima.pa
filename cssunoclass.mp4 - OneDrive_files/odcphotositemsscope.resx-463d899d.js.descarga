@@ -1,0 +1,194 @@
+define("@ms/items-view-addon-photos/lib/handlers/helpers/AlbumGroup.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "yourAlbumsHeader":"Tus álbumes",
+    "suggestedAlbumsHeader":"Álbumes sugeridos" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/handlers/operations/sharedAlbums/sharedAlbums.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "sharedAlbumsDisplayName":"Compartido contigo" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view/lib/private/utilities/fileSystem/nameValidator.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "emptyNameError":"Este campo no se puede dejar en blanco.",
+    "invalidNameError":"Escribe un nombre que no contenga ninguno de los siguientes caracteres: {0}.",
+    "invalidNameStartError":"Los nombres de archivo o de carpeta no pueden empezar por: {0}",
+    "invalidNameEndError":"Los nombres de archivo o de carpeta no pueden terminar en: {0}" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view/lib/private/operations/deleteItems/DeleteStrings.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "deleteStartedItemsTitle":"Eliminar {0} elemento||Eliminar {0} elementos",
+    "deleteStartedItemsTitleIntervals":"1||2-",
+    "deleteStartedItemsDestinationTitle":"Eliminar {0} elemento de {1}|| Eliminar {0} elementos de {1}",
+    "deleteStartedItemsDestinationTitleIntervals":"1||2-",
+    "deleteCompletedItemsTitle":"Se eliminó {0} elemento||Se eliminaron {0} elementos",
+    "deleteCompletedItemsTitleIntervals":"1||2-",
+    "deleteCompletedItemsDestinationTitle":"Eliminar {0} elemento de {1}|| Eliminar {0} elementos de {1}",
+    "deleteCompletedItemsDestinationTitleIntervals":"1||2-",
+    "deleteFailedItemsTitle":"No se eliminó {0} elemento||No se eliminaron {0} elementos",
+    "deleteFailedItemsTitleIntervals":"1||2-",
+    "deleteFailedItemsDestinationTitle":"{0} elemento no se eliminó de {1}||{0} elementos no se eliminaron de {1}",
+    "deleteFailedItemsDestinationTitleIntervals":"1||2-",
+    "deleteConfirmTitle":"¿Desea eliminar?",
+    "deleteConfirmText":"¿Estás seguro de que deseas enviar los elementos a la Papelera de reciclaje del sitio?",
+    "deleteConfirmTextNew":"¿Está seguro de que desea enviar este artículo a la papelera de reciclaje del sitio? ¿Está seguro de que desea enviar estos elementos a la papelera de reciclaje del sitio?",
+    "deleteConfirmTextNewIntervals":"1||2-",
+    "deleteConfirmButtonText":"Eliminar",
+    "fileLockedConfirmDeleteText":"Parece que alguien tiene el archivo abierto. ¿Eliminar de todos modos?" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view/lib/private/components/base/actions/rename/RenameAction.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "fileNameLabel":"Nombre de archivo",
+    "folderNameLabel":"Nombre de carpeta" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/handlers/operations/tagsRoot/tagsRoot.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "topTagsTitleText":"Etiquetas principales",
+    "allTagsTitleText":"Todas las etiquetas" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/handlers/operations/recentPlaces/recentPlaces.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "recentPlacesTitleText":"Lugares recientes" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/components/allPhotosTilesList/AllPhotosTilesList.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "TileListAriaLabel":"Lista de mosaicos" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/components/groupHeader/GroupHeader.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "locationmoreLabel":"{0} y {1} más",
+    "GroupHeaderAriaLabel":"Seleccionar todas las fotos de {0}" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/components/image/Image.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "toggleSelectionAriaLabel":"activar o desactivar {0}" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/components/common/ItemCount/ItemCount.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "AlbumHeaderMetadataItemCount":"elemento",
+    "AlbumHeaderMetadataItemsCount":"elementos" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("odsp-next/controls/autoAlbumFooter/AutoAlbumFooter.resx",["exports"],function(e){e.strings=e.default={"autoAlbumFooterTitle":"OneDrive ha creado este álbum para ti.","saveButtonText":"Agregar a tus álbumes","savedButtonText":"Se ha agregado a tus álbumes.","shareButtonText":"Compartir","discardButtonText":"Descartar álbum"}})
+define("odsp-next/controls/onThisDayHeader/OnThisDayHeader.resx",["exports"],function(e){e.strings=e.default={"onThisDay":"Este día","january":"Enero","february":"Febrero","march":"Marzo","april":"Abril","may":"Mayo","june":"Junio","july":"Julio","august":"Agosto","september":"Septiembre","october":"Octubre","november":"Noviembre","december":"Diciembre"}})
+define("odsp-next/controls/promotedPhotos/PromotedPhotos.resx",["exports"],function(e){e.strings=e.default={"exploreRecentPhotosTitle":"Explorar tus fotos","exploreRecentPhotosLabel":"Explore sus fotos, agrupadas por etiqueta, álbum, lugar o compartidas por usted","onThisDayTitle":"Este día","seeAllTitle":"Ver todos","autoAlbumCardTitle":"Creado para ti","recentTagsTitle":"Etiquetas recientes","recentPlacesTitle":"Lugares recientes","sharedAlbumTitle":"Compartido contigo","shareActionTitle":"Compartir","ItemTileCardArialabel":"{0} {1} de {2} "}})
+define("@ms/items-view-addon-photos/lib/components/explorePhotos/ExplorePhotos.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "explorePhotosTitle":"Explorar tus fotos" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/components/tilesCarousel/TilesCarousel.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "carouselNavButtonAriaLabel":"Ver explorar tus tarjetas fotográficas {0} a {1}" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/components/sharedAlbum/SharedAlbumCard.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "sharedAlbumActivityTitle":"Compartido con usted" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/components/onThisDayCard/OnThisDayCard.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "onThisDayTileActivityTitle":"Este día",
+    "onThisDayActivityAction":"Ver todo" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/components/promotedAutoAlbum/AutoAlbumCard.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "promotedAutoAlbumActivityTitle":"Sugerencias",
+    "promotedAutoAlbumActivityAction":"Agregar a sus álbumes" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/components/PromotedTagAndPlacesCard/promotedTagAndPlaceCard.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "promotedTagActivityTitle":"Etiquetas recientes",
+    "promotedPlaceActivityTitle":"Lugares recientes",
+    "promotedTagAndPlaceActivityAction":"Ver todo" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/components/albumCarousel/AlbumCarousel.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "autoAlbumsTitle":"Personalizados",
+    "showAllAutoAlbums":"Ver todo" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/components/albumCarouselCard/AlbumCarouselCard.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "saveAutoAlbum":"Agregar a sus álbumes",
+    "discardAutoAlbumAction":"Descartar el álbum sugerido" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
+define("@ms/items-view-addon-photos/lib/components/albumCardGallery/AlbumCardGallery.resx",["exports"],function(e){
+  Object.defineProperty(e, "__esModule", { value: true });
+  var strings = {
+    "albumCardSubtitle":"{0} elementos" 
+  };
+  e.strings = strings;
+  e.default = strings;
+});
