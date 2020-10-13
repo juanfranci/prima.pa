@@ -1,0 +1,36 @@
+<html>
+<head>
+<title></title>
+<link rel="stylesheet"
+ type="text/css"
+ href="no.css"
+     />
+</head>
+<body>
+<body background="fondo11.jpg">
+<a
+href="index.html">
+
+</a>
+&nbsp;
+<a
+href="aboutme.html">
+** De Luxe Repuestos **
+</a>
+&nbsp;
+<a
+href="dos.html">
+Comunicate
+<ul>
+<li><B><FONT SIZE="5"aros></FONT> </li>
+<li>volantes </li>
+<li>acandelas  </li>
+<li>llantas  </li>
+<li>escapes </li>
+<li>baterias </li>
+<li>colas de pato etc.</li>
+<IMG SRC="tienda.jpg"  style= width="150" height="252" >
+</ul>
+
+</body>
+</html>

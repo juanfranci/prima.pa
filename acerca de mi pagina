@@ -3,11 +3,11 @@
     <title>ESTA ES MI INTRODUCCION</title>
   </head>
 
-<body background="fondo.jpg" bgcolor="5DFF00">
+<body background="fondo1.jpg" bgcolor="5DFF00">
 
     <a
 
-    href="dos.html">
+    href="index.html">
 
       Home
 
@@ -31,7 +31,7 @@
 
     href="productos y servicios.html" class="greenlink">
 
-    productos y servicios 
+    productos
     </a>
 
 
@@ -41,7 +41,7 @@
 
     href="contactame.html" class="greenlink">
 
-      Contactame
+      Contact me
 
     </a>
 
@@ -52,9 +52,9 @@
    
     <a
 
-    href="registro del clientes.html" class="greenlink">
+    href="registrodeclientes.html" class="greenlink">
 
-      registro del  clientes
+      registro de los clientes
 
     </a>
 
@@ -64,12 +64,7 @@
 
   <div class="container">
 
-    <h1>Fonda de sopas <br>
-
-      <br> Tenemos variedad de sopas a la venta 
-      <br>
-<IMG SRC="fonda1.jpg"  style= width="150" height="252" >
-
+    <h1>SERVICIOS
 
  
 
